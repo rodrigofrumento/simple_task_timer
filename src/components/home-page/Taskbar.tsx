@@ -7,6 +7,7 @@ import Button from "../Button";
 interface Props {
   selectedTaskId: string;
   setSelectedTaskId: React.Dispatch<React.SetStateAction<string>>;
+  setSelectedTaskName: React.Dispatch<React.SetStateAction<string>>;
   setErrorMessage: React.Dispatch<React.SetStateAction<string>>;
   setSeconds: React.Dispatch<React.SetStateAction<number>>;
   pauseTimer: () => void;
@@ -15,6 +16,7 @@ interface Props {
 const TaskBar = ({
   selectedTaskId,
   setSelectedTaskId,
+  setSelectedTaskName,
   setErrorMessage,
   setSeconds,
   pauseTimer,

@@ -16,7 +16,7 @@ interface Props {
       default:
         color = "bg-red-500"
     }
-    const classes = `text-white text-center p-2 rounded mt-4 ${color} ${extraClasses}`
+    const classes = `text-black text-center p-2 rounded mt-4 ${color} ${extraClasses}`
   
     return (
       <div key={key} className={classes}>
